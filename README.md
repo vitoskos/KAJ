@@ -1,6 +1,6 @@
 
 # RaceTracker
-> **🍲 _Tvůj závodní deník._**
+> **🏃‍♂️‍➡️🏃‍♂ _Tvůj závodní deník._**
 
 > **🔖 Aktuální verze:** 0.1.0
 
@@ -11,38 +11,34 @@
 Ať už se ti závod povede nebo ne, zapiš si ho, můžeš se tak zpětně koukat na své výsledky!
 
 Aplikace postavena na moderních technologiích HTML5, CSS a JavaScript, 
-nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závo.
+nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závodů.
 
-![home.png](./README_IMG/home.png)
+![home.png](audio/home.png)
 
 *RaceTracker, hlavní stránka*
 
-### Objevování jídel
-- Aplikace integruje Meal API, konkrétně toto api: https://www.themealdb.com/api.php
-- Člověk může na základě náhodného výběru dostat vždy nový recept hned na hlavní straně.
-- Recept si pak může rovnou uložit do svých oblíbených, které jsou drženy v LocalStorage.
+### Přidávání závodů
+- Pomocí formuláře vyplníme daný závod
+- Závod si pak může rovnou zobrazit v posledním zavodě nebo v příspěvcích, které jsou drženy v LocalStorage.
 
-### Kategorie jídel
-- Široká nabídka různých kategorií.
-![categories.png](README_IMG/categories.png)
+### Prohlížení závodů
+- RaceTracker umožňuje prohlížet vaše minulé závody
+- Možnost procházení závodů podle jména, data, místa a umístění
+
+![categories.png](audio/posts.png)
 
   *RaceTracker, příspěvky*
 
 
-- Možnost procházení závodů podle jména, data, místa a umístění
   
 
-### Ukládání receptů do oblíbených
-- Uživatel si bude moct uložit oblíbené recepty do oblíbených pro rychlejší přístup.
-- Recepty si následně bude moct otevřít v záložce "Favourites".
-  ![favourites.png](README_IMG/favourites.png)
+### Smazání všech závodů / změna vzhledu
+- Uživatel si bude moct vymazat všechny závody
+- Uživatel si bude moct vybrat vzhled stránky 
+  ![favourites.png](audio/settings.png)
 
-   *Culinary Companion, oblíbené položky*
+  *RaceTracker, nastavení*
 
-### Detail jídla a recept
-- Detail jídla obsahuje velký obrázek hotového pokrmu, ingredience, instrukce a případné video.
-- Uživatel může recept sdílet a přidat, popř. odebrat z oblíbených.
-  ![detail.gif](README_IMG/detail.gif)
 
 
 
@@ -50,7 +46,7 @@ nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závo
 
 | Kategorie                         | Popis                                                                                                   | Body   | email                   |                                                                                                                 |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------|--------|-------------------------|-----------------------------------------------------------------------------------------------------------------|
-|                                   |                                                                                                         |        | cechvit1 ed fel cvut cz |                                                                                                                 |
+|                                   |                                                                                                         |        | cechvit1 @ fel cvut cz  |                                                                                                                 |
 | Dokumentace                       |                                                                                                         | **1**  | **1**                   |                                                                                                                 |
 |                                   | cíl projektu, postup, popis funkčnosti, komentáře ve zdrojovém kódu                                     | 1      | 1                       | Toto README.MD                                                                                                  |
 |                                   |                                                                                                         |        |                         |                                                                                                                 |
@@ -72,7 +68,7 @@ nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závo
 |                                   |                                                                                                         |        |                         |                                                                                                                 |
 | Javascript                        |                                                                                                         | **12** | **12**                  |                                                                                                                 |
 | OOP přístup                       | prototypová dědičnost, její využití, jmenné prostory                                                    | 2      | 2                       |                                                                                                                 |
-| Použití JS frameworku či knihovny | použití a pochopení frameworku či knihovny jQuery, React, Vue ..                                        | 1      | 1                       |                                                                                                                 |
+| Použití JS frameworku či knihovny | použití a pochopení frameworku či knihovny jQuery, React, Vue ..                                        | 1      | 0                       |                                                                                                                 |
 | Použití pokročilých JS API        | využití pokročilých API (File API, Geolocation, Drag & Drop, LocalStorage, Sockety, ...)                | 3      | 3                       | Implementován Local storage na ukládání závodů                                                                  |
 | Funkční historie                  | posun tlačítky zpět/vpřed prohlížeče - pokud to vyplývá z funkcionatilty (History API)                  | 2      | 2                       |                                                                                                                 |
 | Ovládání medií                    | použití Média API (video, zvuk), přehrávání z JS                                                        | 1      | 1                       | Nehodí se na můj projekt                                                                                        |
@@ -84,4 +80,4 @@ nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závo
 | Estetické zpracování              |                                                                                                         | 2      | 2                       |                                                                                                                 |
 | Pozdni odevzdani                  |                                                                                                         | 0      | -3                      |                                                                                                                 |
 |                                   |                                                                                                         |        |                         |                                                                                                                 |
-|                                   |                                                                                                         | **36** | **36**                  |
+|                                   |                                                                                                         | **36** | **32**                  |
