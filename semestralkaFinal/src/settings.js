@@ -4,8 +4,8 @@ var settingsContent = `
         <p>Zde můžete upravit své údaje.</p>
         <div id="deleteLocalStorage">   
         <button id="deleteButton">Smazat všechny závody</button>
-        </div>
-        <div id="toggle">
+        
+        
         <button id="toggleButton">Změnit vzhled</button>
         </div>
 

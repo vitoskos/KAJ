@@ -61,3 +61,53 @@ window.onload = function() {
         theme.setAttribute('href', 'light.css');
     }
 };
+// Interact with SVG elements: You can add event listeners to SVG elements just like any other HTML elements. For example, you can change the color of a circle when it's clicked:
+
+let isCircle = true; // Start with a circle
+let svg = document.querySelector('svg');
+
+// Function to toggle the shape
+function toggleShape() {
+    // Remove the current shape
+    shape.parentNode.removeChild(shape);
+
+    if (isCircle) {
+        // If the current shape is a circle, create a square
+        shape = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        shape.setAttribute('id', 'shape');
+        shape.setAttribute('x', '10');
+        shape.setAttribute('y', '5');
+        shape.setAttribute('width', '10');
+        shape.setAttribute('height', '10');
+        shape.setAttribute('fill', 'red');
+    } else {
+        // If the current shape is a square, create a circle
+        shape = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        shape.setAttribute('id', 'shape');
+        shape.setAttribute('cx', '15');
+        shape.setAttribute('cy', '10');
+        shape.setAttribute('r', '5');
+        shape.setAttribute('fill', 'blue');
+    }
+
+    // Add the new shape to the SVG
+    svg.appendChild(shape);
+
+    // Add the event listener to the new shape
+    shape.addEventListener('click', toggleShape);
+
+    // Toggle the isCircle variable
+    isCircle = !isCircle;
+}
+
+// Create the initial circle
+let shape = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+shape.setAttribute('id', 'shape');
+shape.setAttribute('cx', '15');
+shape.setAttribute('cy', '10');
+shape.setAttribute('r', '5');
+shape.setAttribute('fill', 'blue');
+svg.appendChild(shape);
+
+// Add the event listener to the initial circle
+shape.addEventListener('click', toggleShape);
