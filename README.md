@@ -13,7 +13,7 @@ Ať už se ti závod povede nebo ne, zapiš si ho, můžeš se tak zpětně kouk
 Aplikace postavena na moderních technologiích HTML5, CSS a JavaScript, 
 nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závodů.
 
-![home.png](audio/home.png)
+![home.png](/semestralkaFinal/src/audio/home.png)
 
 *RaceTracker, hlavní stránka*
 
@@ -25,7 +25,7 @@ nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závo
 - RaceTracker umožňuje prohlížet vaše minulé závody
 - Možnost procházení závodů podle jména, data, místa a umístění
 
-![categories.png](audio/posts.png)
+![posts.png](/semestralkaFinal/src/audio/posts.png)
 
   *RaceTracker, příspěvky*
 
@@ -35,7 +35,7 @@ nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závo
 ### Smazání všech závodů / změna vzhledu
 - Uživatel si bude moct vymazat všechny závody
 - Uživatel si bude moct vybrat vzhled stránky 
-  ![favourites.png](audio/settings.png)
+  ![settings.png](/semestralkaFinal/src/audio/settings.png)
 
   *RaceTracker, nastavení*
 
@@ -81,3 +81,6 @@ nabízí jednoduché a užitečné funkce pro zapisování a prohlížení závo
 | Pozdni odevzdani                  |                                                                                                         | 0      | -3                      |                                                                                                                 |
 |                                   |                                                                                                         |        |                         |                                                                                                                 |
 |                                   |                                                                                                         | **36** | **32**                  |
+
+
+[def]: audio/home.png
