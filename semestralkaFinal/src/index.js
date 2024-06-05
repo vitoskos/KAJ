@@ -1,4 +1,12 @@
+
+
+// adds script to the page
 window.onload = function() {
+//check for hash in URL
+
+    if (!window.location.hash.substring(1)) {
+        window.location.hash = 'main';
+    }
     // Function to load a script dynamically
     function loadScript(name) {
         // Remove any existing script first

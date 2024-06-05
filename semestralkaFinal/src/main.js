@@ -102,10 +102,11 @@ document.getElementById('newPostForm').addEventListener('submit', function(event
      );
 
     // Add the new race to the races array
-   newRace.save();
+    newRace.save();
     // Optionally, clear the form fields
     event.target.reset();
     alert("Závod byl úspěšně uložen.");
 });
 
 document.getElementById('lastPost').innerHTML = '<h2>Poslední závod</h2>';
+
