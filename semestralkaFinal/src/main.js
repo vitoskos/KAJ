@@ -106,6 +106,7 @@ document.getElementById('newPostForm').addEventListener('submit', function(event
     newRace.save();
     // Optionally, clear the form fields
     event.target.reset();
+    // Play the submit sound
     var submitSound = document.getElementById('submitSound');
     submitSound.play();
     alert("Závod byl úspěšně uložen.");
