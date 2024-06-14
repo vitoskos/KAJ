@@ -157,11 +157,14 @@ nav ul li:hover:not(:has(svg)) {
     animation: navbar 5s infinite;
     border-radius: 5%;
 }
-header span {
+header .inline {
 display: flex;
 align-items: center;
     font-size: 1.5em;
     font-weight: bold;
+}
+.inline {
+    display: inline;
 }
 
 /*buttons */
